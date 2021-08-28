@@ -24,15 +24,12 @@ function findWeather(event) {
     url = url + input + apiKey + units;
     console.log(url);
     fetch(url)
-        // api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}    
+        // api.openweathermap.org/data/2.5/weather?q={city}&appid={ }    
         .then(response => response.json())
         .then(data => {
             console.log(data.main.temp);
-            var temp = data.main.temp
+            var temp = (data.main.temp)
             var tempWeather = document.querySelector('#weatherTemp');
             tempWeather.innerText = temp;
-
-
-
         })
 }

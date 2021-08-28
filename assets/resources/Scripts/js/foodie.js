@@ -1,9 +1,10 @@
 // Write a fetch request to the API
-
+document.getElementById('searchButton').addEventListener('click', findRecipes)
+function findRecipes(){
 fetch('https://api.spoonacular.com/recipes/random?apiKey=b562a936cd5b4f80a3386ac652e6f2e6')
     .then(Response => Response.json())
     .then(data => {
-        console.log(data.recipes[0])
+        console.log(data.recipes[0].title)
         console.log(data.recipes[0].title)
         console.log(data.recipes[0].title)
         var titleElement = document.querySelector('#titleRecipe')
@@ -27,3 +28,4 @@ fetch('https://api.spoonacular.com/recipes/random?apiKey=b562a936cd5b4f80a3386ac
         for (let i = 0; i < ingredients.length; i++);
         // extendedIngredients
     })
+}

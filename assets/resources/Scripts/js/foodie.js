@@ -1,4 +1,4 @@
-// Write a fetch request to the Giphy API
+// Write a fetch request to the API
 
 fetch('https://api.spoonacular.com/recipes/random?apiKey=b562a936cd5b4f80a3386ac652e6f2e6')
     .then(Response => Response.json())
@@ -24,6 +24,6 @@ fetch('https://api.spoonacular.com/recipes/random?apiKey=b562a936cd5b4f80a3386ac
         console.log(extendedIngredients)
         ingredientsElement.innerHTML = extendedIngredients
         let extendedIngredients = ["math.random"];
-        for (let i = 0; i < ingredients.lenght; i++)
+        for (let i = 0; i < ingredients.length; i++)
         // extendedIngredients
     })

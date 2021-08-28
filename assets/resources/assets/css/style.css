@@ -1,6 +1,10 @@
 img {
+  align-content: center ;
+}
+
+img {
     height: auto;
-    max-width: 50%;
+    max-width: 60%;
 }
 
 .img .center {
@@ -12,4 +16,22 @@ img {
 
 .title.is-1.is-align-content-center {
     font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+}
+
+
+
+
+
+hero .img {
+  position: fixed;
+  top: 0;
+  width: 500px;
+  margin-top: 0;
+  background: white;
+  padding: 10px;
+}
+
+img {
+    margin-left: auto;
+    padding-left: AUTO;
 }

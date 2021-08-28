@@ -23,7 +23,7 @@ fetch('https://api.spoonacular.com/recipes/random?apiKey=b562a936cd5b4f80a3386ac
         var extendedIngredients = data.recipes[0].extendedIngredients
         console.log(extendedIngredients)
         ingredientsElement.innerHTML = extendedIngredients
-        let extendedIngredients = ["math.random"];
-        for (let i = 0; i < ingredients.length; i++)
+        let extendedIngredients = [math.random];
+        for (let i = 0; i < ingredients.length; i++);
         // extendedIngredients
     })

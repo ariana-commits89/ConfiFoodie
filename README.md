@@ -1,6 +1,8 @@
 # No More Comfort Food Indecision
+![Screen Shot 2021-08-29 at 12 34 36 AM](https://user-images.githubusercontent.com/85209802/131241102-5fa3c41e-11ff-4789-895f-18b855a801b5.png)
+# No More Comfort Food Indecision
 
-(INSERT FINAL FULL PAGE SCREENSHOT/IMAGE HERE)
+(FINAL FULL PAGE SCREENSHOT/IMAGE HERE)
 
 ## Objective
 

@@ -1,3 +1,4 @@
+node_modules
 # index2.html
 indexz.html
 indexleslie.html
@@ -6,5 +7,6 @@ indexcorrectlayoutcopy.html
 indexfunctioningcode.html
 style.css
 package-lock.json
-node_modules
+.bin
+typescript
 

@@ -14,7 +14,7 @@ function setup() {
         event.preventDefault();
     })
 }
-//  <input=select:true ('#city')> <input>
+
 
 document.getElementById('searchButton').addEventListener('click', findWeather)
 

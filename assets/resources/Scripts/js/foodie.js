@@ -7,6 +7,7 @@ function findRecipes() {
             console.log(data.recipes[0].title)
             console.log(data.recipes[0].title)
             console.log(data.recipes[0].title)
+            console.log(data.recipes[0].extendedIngredients)
             var titleElement = document.querySelector('#titleRecipe')
             var titleRecipe = data.recipes[0].title
             titleElement.innerText = titleRecipe
@@ -23,9 +24,12 @@ function findRecipes() {
             var ingredientsElement = document.querySelector('#extendedIngredients')
             var extendedIngredients = data.recipes[0].extendedIngredients
             console.log(extendedIngredients)
-            ingredientsElement.innerHTML = extendedIngredients
-            let mathRandom = [math.random];
-            for (let i = 0; i < ingredients.length; i++);
+        //    ingredientsElement.innerHTML = extendedIngredients
+ //           let mathRandom = [math.random];
+           for (let i = 0; i < extendedIngredients.length; i++){
+               extendedIngredients[i]
+               console.log(extendedIngredients[i])
+           }
             // extendedIngredients
         })
 }
